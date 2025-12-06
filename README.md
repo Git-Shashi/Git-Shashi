@@ -58,11 +58,11 @@ I'm passionate about building **scalable web applications**, **cloud-based solut
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Git-Shashi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Git-Shashi&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Shashi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 </div>
 
@@ -72,7 +72,7 @@ I'm passionate about building **scalable web applications**, **cloud-based solut
 
 <div align="center">
   
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&area=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Git-Shashi&theme=tokyo-night&hide_border=true&area=true)
 
 </div>
 
@@ -82,7 +82,7 @@ I'm passionate about building **scalable web applications**, **cloud-based solut
 
 <div align="center">
   
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1&column=7)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Git-Shashi&theme=tokyonight&no-frame=true&row=1&column=7)
 
 </div>
 
@@ -90,19 +90,19 @@ I'm passionate about building **scalable web applications**, **cloud-based solut
 
 ## 🔥 Featured Projects
 
-### [DevForge](https://github.com/YOUR_GITHUB_USERNAME/devforge) 🚀
+### [DevForge](https://github.com/Git-Shashi/devforge) 🚀
 Cloud IDE with AI-powered code suggestions | Next.js, Docker, MongoDB, Redis
 - Containerized architecture with Dockerode
 - Monaco Editor with auto-save
 - Real-time container log streaming
 
-### [IntelliChat](https://github.com/YOUR_GITHUB_USERNAME/intellichat) 🤖
+### [IntelliChat](https://github.com/Git-Shashi/intellichat) 🤖
 AI-powered conversational platform | React, Node.js, Gemini API, MongoDB
 - 500+ daily conversations
 - 85% user retention rate
 - 1.2s average response time
 
-### [Hired](https://github.com/YOUR_GITHUB_USERNAME/hired) 💼
+### [Hired](https://github.com/Git-Shashi/hired) 💼
 Full-stack job portal | React, Supabase, Clerk, PostgreSQL
 - 200+ active users
 - Real-time application tracking
