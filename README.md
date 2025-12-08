@@ -56,15 +56,18 @@ I'm passionate about building **scalable web applications**, **cloud-based solut
 
 ## 📈 GitHub Stats
 
+## 📈 GitHub Stats
+
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Git-Shashi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Git-Shashi&show_icons=true&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Git-Shashi&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Shashi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Shashi&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
+
 
 ---
 
@@ -133,7 +136,7 @@ Full-stack job portal | React, Supabase, Clerk, PostgreSQL
 
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blueviolet&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=Git-Shashi&color=blueviolet&style=for-the-badge)
 
 ### 💡 *"Building the future, one commit at a time"*
 
