@@ -133,17 +133,7 @@ I build **scalable full-stack web applications**, **containerized developer tool
 
 > _“Build systems that scale, not just projects that run.”_
 
-## 🌎 Visualizations
 
-### 🏙 GitHub Skyline
-Explore my commits as a 3D city.
-
-[![GitHub Skyline](https://img.shields.io/badge/View%20My-GitHub%20Skyline-blue?style=for-the-badge)](https://skyline.github.com/Git-Shashi)
-
-### 🌍 GitHub Globe
-See how GitHub visualizes global collaboration.
-
-[![GitHub Globe](https://img.shields.io/badge/View-GitHub%20Globe-green?style=for-the-badge)](https://github.blog/engineering/engineering-principles/how-we-built-the-github-globe/)
 
 <div align="center">
   
