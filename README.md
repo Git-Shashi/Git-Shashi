@@ -1,144 +1,95 @@
 # 👋 Hi, I’m Shashi Bhushan Kumar
 
-**Final-year B.Tech Computer Science student at IIIT Senapati**  
-**Full-Stack MERN Developer | Cloud & DevOps Enthusiast**
+**Backend Engineer (Fintech) | IIIT Senapati**
 
-I build **scalable full-stack web applications**, **containerized developer tools**, and **AI-integrated platforms** with a strong focus on **clean architecture, performance, and real-world usability**.
-
----
-
-## 📊 GitHub Overview
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Git-Shashi&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Git-Shashi&show_icons=true&theme=default&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Shashi&layout=compact&theme=default&hide_border=true" height="160"/>
-</p>
-
----
-
-## 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Git-Shashi&theme=github-light&hide_border=true" />
-</p>
-
----
-
-## 🔧 Technical Skills
-
-### Frontend
-- React, Next.js (App Router)
-- TypeScript, JavaScript
-- Tailwind CSS, shadcn/ui
-- Monaco Editor
-
-### Backend
-- Node.js, Express.js
-- FastAPI
-- REST APIs, WebSockets
-- JWT Authentication, RBAC
-
-### Databases
-- MongoDB, Mongoose
-- PostgreSQL, MySQL
-- Redis
-- Prisma ORM
-
-### DevOps & Cloud
-- Docker, Dockerode
-- Git & GitHub
-- AWS (basic)
-- Vercel, Render, Supabase
+I build **scalable backend systems**, **secure APIs**, and **performance-critical infrastructure** with a focus on **real-world reliability, system design, and clean architecture**.
 
 ---
 
 ## 💼 Experience
 
-### Full-Stack MERN Developer Intern  
-**Orbol Group** · Remote · Part-time  
+### Backend Developer Intern  
+**Volopay (YC W20)** · Bengaluru  
+*Feb 2026 – Present*
+
+- Built **RBAC systems** for multi-tenant fintech architecture
+- Implemented **JWT-based authentication** with token lifecycle management
+- Improved API performance by offloading heavy workflows to **Sidekiq background jobs**
+- Worked within a **production-scale Rails + PostgreSQL system**
+
+### Full Stack Developer (MERN)  
+**Orbol Group** · Remote  
 *June 2025 – Aug 2025*
 
-- Designed and implemented **role-based access control (RBAC)** for admin and user panels
-- Built **JWT-based authentication & authorization** with secure token lifecycle management
-- Engineered scalable backend services using **Node.js, Express, and PostgreSQL**
-- Improved API reliability and performance through optimized database interactions
+- Built secure backend services using **Node.js and Express**
+- Implemented **authentication & authorization (JWT)**
+- Optimized database queries, improving response performance
+- Developed end-to-end features including role-based systems and real-time updates
 
 ---
 
 ## 🚀 Featured Projects
 
 ### DevForge — Cloud IDE Platform  
-**Next.js 14 · TypeScript · Docker · MongoDB · Redis**
+**Next.js · TypeScript · Docker · MongoDB · Redis**
 
-- Built a **web-based cloud IDE** with containerized environments for React, MERN, Java, and C++
-- Implemented **Dockerode-based dynamic container provisioning**
-- Integrated **Monaco Editor** with autosave, syntax highlighting, and terminal output
-- Added AI-assisted coding using **Gemini API** with file-context awareness
+- Built a **cloud IDE with containerized execution environments**
+- Managed isolated containers using **Dockerode**
+- Designed backend APIs for file operations, logs, and project lifecycle
+- Used **Redis caching** to optimize session performance
 
 🔗 https://github.com/Git-Shashi/devforge
 
 ---
 
 ### IntelliChat — AI Assistant Platform  
-**React · Node.js · Gemini API · Groq API · MongoDB**
+**Node.js · WebSockets · Gemini API · MongoDB**
 
-- Developed real-time chat using **WebSockets** with persistent conversation state
-- Implemented secure authentication with JWT and protected API routes
-- Maintained multi-turn AI context for accurate and fast responses
+- Built real-time chat system with **WebSocket-based communication**
+- Implemented **secure JWT authentication**
+- Designed multi-provider AI integration with fallback handling
 
 🔗 https://github.com/Git-Shashi/intellichat
 
 ---
 
-### Hired — Job Portal Platform  
-**React · Supabase · Clerk · PostgreSQL**
+## 🛠️ Tech Stack
 
-- Built a full-stack job portal supporting **200+ active users**
-- Implemented role-based access for recruiters and job seekers
-- Achieved **99% uptime** using Supabase services
-- Added real-time notifications and application tracking
+**Backend:**  
+Ruby on Rails, Node.js, Express.js, REST APIs, JWT, RBAC, WebSockets, Sidekiq  
 
-🔗 https://github.com/Git-Shashi/hired
+**Databases:**  
+PostgreSQL, MongoDB, MySQL, Redis  
+
+**DevOps & Tools:**  
+Docker, Git, AWS (basic), Supabase, Vercel  
+
+**Frontend (working knowledge):**  
+React, Next.js, TypeScript  
 
 ---
 
 ## 📊 Problem Solving
 
-- **LeetCode Rating:** 1600+ (Top 30%)
-- **Problems Solved:** 400+
-- Focus on **Data Structures & Algorithms**
+- **LeetCode:** 1600+ rating (Top 30%)  
+- **400+ problems solved**  
+- Strong focus on **DSA & system design fundamentals**
 
 ---
 
-## 🏆 Certifications & Achievements
+## 🎯 What I’m Looking For
 
-- **NPTEL – Programming in Java** (Elite, Top 5%)
-- Consistent contributor to personal and academic projects
-- Strong foundation in system design fundamentals
+Backend-focused roles where I can work on **scalable systems, APIs, and real-world product challenges**.  
+Interested in **fintech and infrastructure-heavy products**, and teams that move fast with strong ownership.
 
 ---
 
 ## 📫 Contact
 
-- **Email:** shashibhushan847305@gmail.com  
-- **LinkedIn:** https://linkedin.com/in/shashi-bhushan-kumar-796b53259  
-- **Portfolio:** https://portfolio-lyart-two-66.vercel.app  
-- **GitHub:** https://github.com/Git-Shashi  
+- Email: shashibhushan847305@gmail.com  
+- LinkedIn: https://linkedin.com/in/shashi-bhushan-kumar-796b53259  
+- Portfolio: https://portfolio-lyart-two-66.vercel.app  
 
 ---
 
-> _“Build systems that scale, not just projects that run.”_
-
-
-
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=Git-Shashi&color=blueviolet&style=for-the-badge)
-
-### 💡 *"Building the future, one commit at a time"*
-
-</div>
+> _Build systems that scale, not just features that work._
