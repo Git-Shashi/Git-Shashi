@@ -94,4 +94,6 @@ Interested in **fintech and infrastructure-heavy products**, and teams that move
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Git-Shashi&theme=github_dark&utcOffset=5.5" />
 
+![Activity Overview](./activity_chart.svg)
+
 > _Build systems that scale, not just features that work._
