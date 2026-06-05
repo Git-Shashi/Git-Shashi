@@ -47,9 +47,10 @@ def fetch_stats():
         "reviews": c["totalPullRequestReviewContributions"],
     }
 
-def compute_percentages(stats):
-    total = sum(stats.values()) or 1
-    return {k: round(v / total * 100) for k, v in stats.items()}
+def log_scale(stats):
+    log_vals = {k: math.log1p(v) for k, v in stats.items()}
+    max_val = max(log_vals.values()) or 1
+    return {k: v / max_val for k, v in log_vals.items()}
 
 def polar_to_cart(cx, cy, radius, angle_deg):
     angle_rad = math.radians(angle_deg)
@@ -58,20 +59,21 @@ def polar_to_cart(cx, cy, radius, angle_deg):
         round(cy + radius * math.sin(angle_rad), 2),
     )
 
-def generate_svg(pct):
+def generate_svg(stats):
+    scale = log_scale(stats)
     cx, cy = 220, 160
     max_r = 100
 
     axes = [
-        ("reviews",  -90, "Code review",   pct["reviews"],  0,   -18),
-        ("issues",     0, "Issues",         pct["issues"],  18,    0),
-        ("prs",       90, "Pull requests",  pct["prs"],      0,   18),
-        ("commits",  180, "Commits",        pct["commits"], -18,   0),
+        ("reviews",  -90, "Code review",   stats["reviews"],  scale["reviews"],  0,   -18),
+        ("issues",     0, "Issues",         stats["issues"],   scale["issues"],  18,    0),
+        ("prs",       90, "Pull requests",  stats["prs"],      scale["prs"],      0,   18),
+        ("commits",  180, "Commits",        stats["commits"],  scale["commits"], -18,   0),
     ]
 
     points = []
-    for key, angle, label, p, dx, dy in axes:
-        r = max_r * (p / 100)
+    for key, angle, label, count, s, dx, dy in axes:
+        r = max_r * s
         x, y = polar_to_cart(cx, cy, r, angle)
         points.append((x, y))
 
@@ -80,7 +82,7 @@ def generate_svg(pct):
     axis_lines = ""
     labels = ""
     dots = ""
-    for key, angle, label, p, dx, dy in axes:
+    for key, angle, label, count, s, dx, dy in axes:
         ex, ey = polar_to_cart(cx, cy, max_r, angle)
         axis_lines += f'<line x1="{cx}" y1="{cy}" x2="{ex}" y2="{ey}" stroke="#3d4f3d" stroke-width="1.5"/>\n'
 
@@ -92,10 +94,10 @@ def generate_svg(pct):
             anchor = "end"
 
         labels += f'''
-<text x="{lx + dx}" y="{ly - 6}" text-anchor="{anchor}" font-family="sans-serif" font-size="12" fill="#8b949e">{p}%</text>
+<text x="{lx + dx}" y="{ly - 6}" text-anchor="{anchor}" font-family="sans-serif" font-size="12" fill="#8b949e">{count}</text>
 <text x="{lx + dx}" y="{ly + 8}" text-anchor="{anchor}" font-family="sans-serif" font-size="12" fill="#8b949e">{label}</text>
 '''
-        px2, py2 = polar_to_cart(cx, cy, max_r * (p / 100), angle)
+        px2, py2 = polar_to_cart(cx, cy, max_r * s, angle)
         dots += f'<circle cx="{px2}" cy="{py2}" r="4" fill="#3fb950"/>\n'
 
     svg = f'''<svg width="440" height="320" viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +107,7 @@ def generate_svg(pct):
   {dots}
   {labels}
   <text x="220" y="308" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#484f58">
-    Updated: {datetime.utcnow().strftime("%Y-%m-%d")}
+    Updated: {datetime.utcnow().strftime("%Y-%m-%d")} · log scale
   </text>
 </svg>'''
     return svg
@@ -114,9 +116,7 @@ def main():
     print(f"Fetching stats for {USERNAME}...")
     stats = fetch_stats()
     print(f"Raw stats: {stats}")
-    pct = compute_percentages(stats)
-    print(f"Percentages: {pct}")
-    svg = generate_svg(pct)
+    svg = generate_svg(stats)
     out_path = "activity_chart.svg"
     with open(out_path, "w") as f:
         f.write(svg)
