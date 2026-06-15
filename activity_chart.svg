@@ -5,10 +5,10 @@
 <line x1="220" y1="160" x2="220.0" y2="260.0" stroke="#3d4f3d" stroke-width="1.5"/>
 <line x1="220" y1="160" x2="120.0" y2="160.0" stroke="#3d4f3d" stroke-width="1.5"/>
 
-  <polygon points="220.0,160.0 232.3,160.0 220.0,208.06 120.0,160.0" fill="#196c2e" fill-opacity="0.55" stroke="#2ea043" stroke-width="1.5"/>
+  <polygon points="220.0,160.0 232.29,160.0 220.0,208.0 120.0,160.0" fill="#196c2e" fill-opacity="0.55" stroke="#2ea043" stroke-width="1.5"/>
   <circle cx="220.0" cy="160.0" r="4" fill="#3fb950"/>
-<circle cx="232.3" cy="160.0" r="4" fill="#3fb950"/>
-<circle cx="220.0" cy="208.06" r="4" fill="#3fb950"/>
+<circle cx="232.29" cy="160.0" r="4" fill="#3fb950"/>
+<circle cx="220.0" cy="208.0" r="4" fill="#3fb950"/>
 <circle cx="120.0" cy="160.0" r="4" fill="#3fb950"/>
 
   
@@ -21,10 +21,10 @@
 <text x="220.0" y="282.0" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8b949e">14</text>
 <text x="220.0" y="296.0" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8b949e">Pull requests</text>
 
-<text x="74.0" y="154.0" text-anchor="end" font-family="sans-serif" font-size="12" fill="#8b949e">279</text>
+<text x="74.0" y="154.0" text-anchor="end" font-family="sans-serif" font-size="12" fill="#8b949e">281</text>
 <text x="74.0" y="168.0" text-anchor="end" font-family="sans-serif" font-size="12" fill="#8b949e">Commits</text>
 
   <text x="220" y="308" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#484f58">
-    Updated: 2026-06-14 · log scale
+    Updated: 2026-06-15 · log scale
   </text>
 </svg>
